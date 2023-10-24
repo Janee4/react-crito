@@ -1,13 +1,14 @@
 import React from 'react'
 
 import img_Showcase from '../assets/images/Showcase.png'
+import thinLinesShowcase from '../assets/images/thin-line-showcase.svg'
 
 const ShowcaseSection = () => {
   return (
     <section className="showcase"> 
     <div className="container">
         <div className="thin-line-showcase">
-        <img src="images/thin-line-showcase.svg" alt="" />
+        <img src={thinLinesShowcase} alt="" />
         </div>
         <div className="content">  
         <p>Establish your vision and value proposition and turn them into testable prototypes.</p>

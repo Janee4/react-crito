@@ -10,13 +10,13 @@ html, body { /*All text blir till denna färg */
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 16px; /*storleken på texten */
   font-weight: 400; /*hur stark färgen blir */
+  
 }
 
 .wrapper {
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 
 .btn-black {
