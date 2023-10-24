@@ -1,9 +1,16 @@
 import React from 'react'
+import NavSectionContainer from './NavSectionContainer'
+import ShowcaseSection from './ShowcaseSection'
 
-const header = () => {
+
+const Header = () => {
   return (
-    <div>header</div>
+    <header>
+
+    <NavSectionContainer/>
+    <ShowcaseSection />
+    </header>
   )
 }
 
-export default header
+export default Header
