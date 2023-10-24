@@ -9,6 +9,7 @@ const Header = () => {
 
     <NavSectionContainer/>
     <ShowcaseSection />
+
     </header>
   )
 }

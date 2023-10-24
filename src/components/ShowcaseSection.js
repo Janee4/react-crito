@@ -1,5 +1,7 @@
 import React from 'react'
 
+import img_Showcase from '../assets/images/Showcase.png'
+
 const ShowcaseSection = () => {
   return (
     <section className="showcase"> 
@@ -12,7 +14,7 @@ const ShowcaseSection = () => {
         <a className="btn-yellow" href="consulting.html">Get Consulting <i className="fa-regular fa-arrow-up-right"></i></a>
         <a className="btn-transparent" href="services.html">Learn More <i className="fa-regular fa-arrow-up-right"></i></a>
         </div>
-        <img className="man-img" src="images/Showcase.png" alt="showcase image of a man" />
+        <img className="man-img" src={img_Showcase} alt="showcase image of a man" />
     </div>
     </section>
   )
