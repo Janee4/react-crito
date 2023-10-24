@@ -1,9 +1,12 @@
 import React from 'react'
 
+
+
+import logo from '../assets/images/Logo.svg'
 const NavSectionContainer = () => {
   return (
       <div className="container">
-      <a className="crito" href="flexbox-2.html"><img src="images/Logo.svg" alt="crito logotype" /></a>
+      <a className="crito" href="flexbox-2.html"><img src={logo} alt="crito logotype" /></a>
       <button className="menu-bars"><i className="fa-solid fa-bars-staggered"></i></button>
       <div className="menu"> 
         <div className="top-menu"> 
