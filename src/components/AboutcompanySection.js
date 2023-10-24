@@ -2,8 +2,7 @@ import React from 'react'
 
 import woman from '../assets/images/woman.svg'
 
-
-const AboutCompany = () => {
+const AboutcompanySection = () => {
   return (
     <section className="part-3">
   <div className="container">
@@ -34,4 +33,4 @@ const AboutCompany = () => {
   )
 }
 
-export default AboutCompany
+export default AboutcompanySection

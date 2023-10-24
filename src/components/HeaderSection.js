@@ -2,7 +2,8 @@ import React from 'react'
 import NavSectionContainer from './NavSectionContainer'
 import ShowcaseSection from './ShowcaseSection'
 import FeaturesSection from './FeaturesSection'
-import AboutCompany from './AboutCompany'
+import AboutcompanySection from './AboutcompanySection'
+
 
 
 const Header = () => {
@@ -12,7 +13,8 @@ const Header = () => {
     <NavSectionContainer/>
     <ShowcaseSection />
     <FeaturesSection/>
-    <AboutCompany/>
+    <AboutcompanySection/>
+    
 
     </header>
   )
