@@ -1,22 +1,11 @@
-
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap");
-
-
-
 html, body { /*All text blir till denna färg */
   color: #191919;
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 16px; /*storleken på texten */
   font-weight: 400; /*hur stark färgen blir */
-  
-}
-
-.wrapper {
-    height: 100dvh;
-    display: flex;
-    flex-direction: column;
 }
 
 .btn-black {
@@ -373,8 +362,9 @@ header .container .menu .main-menu .btn-login i {
 
 @media (min-width: 576px) {
   .showcase-2 {
-    margin-left: 0;
+    margin-left: -50px;
     margin-bottom: 0;
+    background-color: rgb(255, 255, 255);
   }
 }
 .showcase-2 .container .logo-section {
@@ -393,32 +383,33 @@ header .container .menu .main-menu .btn-login i {
   background-color: #ffffff;
   margin-left: 90px;
 }
-.showcase-2 .container .container-2 {
+.showcase-2 .container-2 {
   padding-bottom: 100px;
   max-width: 1400px;
   gap: 2rem;
+  background-color: #ffffff;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 {
+  .showcase-2 .container-2 {
     background-color: #ffffff;
     border: solid 1.6px rgb(208, 208, 208);
     display: flex;
     width: 1600px;
     height: 600px;
-    margin-left: -105px;
+    margin-left: 160px;
   }
 }
-.showcase-2 .container .container-2 .left {
+.showcase-2 .container-2 .left {
   background-color: #ffffff;
   margin-bottom: 60px;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .left {
+  .showcase-2 .container-2 .left {
     padding-left: 115px;
     margin-bottom: 0px;
   }
 }
-.showcase-2 .container .container-2 .left p {
+.showcase-2 .container-2 .left p {
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 16px; /*storleken på texten */
   font-weight: 500;
@@ -427,7 +418,7 @@ header .container .menu .main-menu .btn-login i {
   text-align: center;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .left p {
+  .showcase-2 .container-2 .left p {
     font-size: 18px;
     font-weight: 500;
     margin-top: 60px;
@@ -435,7 +426,7 @@ header .container .menu .main-menu .btn-login i {
     display: block;
   }
 }
-.showcase-2 .container .container-2 .left h2 {
+.showcase-2 .container-2 .left h2 {
   font-family: "DM Sans", sans-serif; /*kolla design mallen och hämta från fonts.google.com */
   font-weight: 700;
   font-size: 27px;
@@ -444,7 +435,7 @@ header .container .menu .main-menu .btn-login i {
   margin-top: 10px;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .left h2 {
+  .showcase-2 .container-2 .left h2 {
     font-size: 45px;
     text-align: left;
     margin-top: 0px;
@@ -452,11 +443,11 @@ header .container .menu .main-menu .btn-login i {
     margin-bottom: 50px;
   }
 }
-.showcase-2 .container .container-2 .left .btn-learn-yellow {
+.showcase-2 .container-2 .left .btn-learn-yellow {
   display: none;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .left .btn-learn-yellow {
+  .showcase-2 .container-2 .left .btn-learn-yellow {
     display: block;
     background-color: #F9D783;
     border: solid 1px #F9D783;
@@ -467,18 +458,18 @@ header .container .menu .main-menu .btn-login i {
     font-size: 16px; /*samma storlek som redan finns, men för att kunna hänvisa till denna från "i" så sätter vi en fontsize. */
     border-radius: 30px;
   }
-  .showcase-2 .container .container-2 .left .btn-learn-yellow i {
+  .showcase-2 .container-2 .left .btn-learn-yellow i {
     margin: 8px; /*skapar avstånd mellan ikonen (pilen) och texten */
     font-size: 0.9em;
     font-weight: 700;
   }
-  .showcase-2 .container .container-2 .left .btn-learn-yellow:hover {
+  .showcase-2 .container-2 .left .btn-learn-yellow:hover {
     background-color: #191919; /*När vi går över med musen så blir bakgrundsfärgen svar */
     border: 1px solid #191919; /*bordern blir också svart då den var gul innan*/
     color: #F0EFE9; /* text färgen går över från svart till vit (obs! lite mjukare vit) */
   }
 }
-.showcase-2 .container .container-2 .right {
+.showcase-2 .container-2 .right {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -487,7 +478,7 @@ header .container .menu .main-menu .btn-login i {
   margin-left: 0px;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .right {
+  .showcase-2 .container-2 .right {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -496,142 +487,142 @@ header .container .menu .main-menu .btn-login i {
     row-gap: 0;
   }
 }
-.showcase-2 .container .container-2 .right .business-advice {
+.showcase-2 .container-2 .right .business-advice {
   margin-left: 13px;
 }
-.showcase-2 .container .container-2 .right .business-advice img {
+.showcase-2 .container-2 .right .business-advice img {
   margin-bottom: 10px;
 }
-.showcase-2 .container .container-2 .right .business-advice h2 {
+.showcase-2 .container-2 .right .business-advice h2 {
   font-family: "DM Sans", sans-serif; /*kolla design mallen och hämta från fonts.google.com */
   font-weight: 600;
   font-size: 18px;
   color: #191919;
 }
-.showcase-2 .container .container-2 .right .business-advice p {
+.showcase-2 .container-2 .right .business-advice p {
   color: rgb(94, 94, 93);
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 13px; /*storleken på texten */
   font-weight: 400;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .right .business-advice {
+  .showcase-2 .container-2 .right .business-advice {
     margin-top: 40px;
     margin-left: 0;
   }
-  .showcase-2 .container .container-2 .right .business-advice img {
+  .showcase-2 .container-2 .right .business-advice img {
     margin-bottom: 30px;
   }
-  .showcase-2 .container .container-2 .right .business-advice h2 {
+  .showcase-2 .container-2 .right .business-advice h2 {
     font-weight: 900;
     font-size: 22px;
   }
-  .showcase-2 .container .container-2 .right .business-advice p {
+  .showcase-2 .container-2 .right .business-advice p {
     font-size: 16px; /*storleken på texten */
     font-weight: 400;
   }
 }
-.showcase-2 .container .container-2 .right .startup-business {
+.showcase-2 .container-2 .right .startup-business {
   margin-left: 13px;
 }
-.showcase-2 .container .container-2 .right .startup-business img {
+.showcase-2 .container-2 .right .startup-business img {
   margin-bottom: 10px;
 }
-.showcase-2 .container .container-2 .right .startup-business h2 {
+.showcase-2 .container-2 .right .startup-business h2 {
   font-family: "DM Sans", sans-serif; /*kolla design mallen och hämta från fonts.google.com */
   font-weight: 600;
   font-size: 18px;
   color: #191919;
 }
-.showcase-2 .container .container-2 .right .startup-business p {
+.showcase-2 .container-2 .right .startup-business p {
   color: rgb(94, 94, 93);
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 13px; /*storleken på texten */
   font-weight: 400;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .right .startup-business {
+  .showcase-2 .container-2 .right .startup-business {
     margin-top: 40px;
     margin-left: 62px;
   }
-  .showcase-2 .container .container-2 .right .startup-business img {
+  .showcase-2 .container-2 .right .startup-business img {
     margin-bottom: 30px;
   }
-  .showcase-2 .container .container-2 .right .startup-business h2 {
+  .showcase-2 .container-2 .right .startup-business h2 {
     font-weight: 900;
     font-size: 22px;
   }
-  .showcase-2 .container .container-2 .right .startup-business p {
+  .showcase-2 .container-2 .right .startup-business p {
     font-size: 16px; /*storleken på texten */
     font-weight: 400;
   }
 }
-.showcase-2 .container .container-2 .right .financial-advice {
+.showcase-2 .container-2 .right .financial-advice {
   margin-left: 13px;
 }
-.showcase-2 .container .container-2 .right .financial-advice img {
+.showcase-2 .container-2 .right .financial-advice img {
   margin-bottom: 10px;
 }
-.showcase-2 .container .container-2 .right .financial-advice h2 {
+.showcase-2 .container-2 .right .financial-advice h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #191919;
 }
-.showcase-2 .container .container-2 .right .financial-advice p {
+.showcase-2 .container-2 .right .financial-advice p {
   color: rgb(94, 94, 93);
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 13px; /*storleken på texten */
   font-weight: 400;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .right .financial-advice {
+  .showcase-2 .container-2 .right .financial-advice {
     margin-top: 40px;
     margin-left: 0px;
   }
-  .showcase-2 .container .container-2 .right .financial-advice img {
+  .showcase-2 .container-2 .right .financial-advice img {
     margin-bottom: 30px;
   }
-  .showcase-2 .container .container-2 .right .financial-advice h2 {
+  .showcase-2 .container-2 .right .financial-advice h2 {
     font-weight: 900;
     font-size: 22px;
   }
-  .showcase-2 .container .container-2 .right .financial-advice p {
+  .showcase-2 .container-2 .right .financial-advice p {
     font-size: 16px; /*storleken på texten */
     font-weight: 400;
   }
 }
-.showcase-2 .container .container-2 .right .risk-management {
+.showcase-2 .container-2 .right .risk-management {
   margin-left: 13px;
 }
-.showcase-2 .container .container-2 .right .risk-management img {
+.showcase-2 .container-2 .right .risk-management img {
   margin-bottom: 10px;
 }
-.showcase-2 .container .container-2 .right .risk-management h2 {
+.showcase-2 .container-2 .right .risk-management h2 {
   font-family: "DM Sans", sans-serif; /*kolla design mallen och hämta från fonts.google.com */
   font-weight: 600;
   font-size: 18px;
   color: #191919;
 }
-.showcase-2 .container .container-2 .right .risk-management p {
+.showcase-2 .container-2 .right .risk-management p {
   color: rgb(94, 94, 93);
   font-family: "Inter", sans-serif; /*Textsnitt */
   font-size: 13px; /*storleken på texten */
   font-weight: 400;
 }
 @media (min-width: 576px) {
-  .showcase-2 .container .container-2 .right .risk-management {
+  .showcase-2 .container-2 .right .risk-management {
     margin-top: 40px;
     margin-left: 62px;
   }
-  .showcase-2 .container .container-2 .right .risk-management img {
+  .showcase-2 .container-2 .right .risk-management img {
     margin-bottom: 30px;
   }
-  .showcase-2 .container .container-2 .right .risk-management h2 {
+  .showcase-2 .container-2 .right .risk-management h2 {
     font-weight: 900;
     font-size: 22px;
   }
-  .showcase-2 .container .container-2 .right .risk-management p {
+  .showcase-2 .container-2 .right .risk-management p {
     font-size: 16px; /*storleken på texten */
     font-weight: 400;
   }
@@ -641,10 +632,10 @@ header .container .menu .main-menu .btn-login i {
   margin-bottom: 100px;
   background-color: #ffffff;
   padding: 30px;
+  height: 100dvh;
 }
 @media (min-width: 576px) {
   .part-3 {
-    margin-top: 100px; /*Gör att du kan flytta upp ramen ännu mer då vanlig margin inte räcker */
     margin-bottom: 100px;
     margin-left: -240px;
     background-color: #ffffff;
@@ -655,6 +646,7 @@ header .container .menu .main-menu .btn-login i {
   .part-3 .container {
     display: flex;
     gap: 133px;
+    padding-top: 100px;
   }
 }
 .part-3 .container .content-3-left {
@@ -724,6 +716,7 @@ header .container .menu .main-menu .btn-login i {
   .part-3 .content-3-right {
     margin-left: 0px;
     text-align: start;
+    margin-bottom: 210px;
   }
   .part-3 .content-3-right br {
     display: block;
