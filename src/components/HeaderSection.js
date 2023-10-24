@@ -3,6 +3,7 @@ import NavSectionContainer from './NavSectionContainer'
 import ShowcaseSection from './ShowcaseSection'
 import FeaturesSection from './FeaturesSection'
 import AboutcompanySection from './AboutcompanySection'
+import OurservicesSection from './OurservicesSection'
 
 
 
@@ -14,6 +15,7 @@ const Header = () => {
     <ShowcaseSection />
     <FeaturesSection/>
     <AboutcompanySection/>
+    <OurservicesSection/>
     
 
     </header>
