@@ -8,6 +8,7 @@ import WhychooseusSection from './WhychooseusSection'
 import ProjectandcaseSection from './ProjectandcaseSection'
 import MeetourteamSection from './MeetourteamSection'
 import TestimonialSection from './TestimonialSection'
+import ArticleandnewsSection from './ArticleandnewsSection'
 
 
 
@@ -22,6 +23,7 @@ const BodySection = () => {
     <ProjectandcaseSection />
     <MeetourteamSection />
     <TestimonialSection />
+    <ArticleandnewsSection />
     </body>
   )
 }
