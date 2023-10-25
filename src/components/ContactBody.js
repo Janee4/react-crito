@@ -4,6 +4,7 @@ import ContactMiniNav from './ContactMiniNav'
 import ContactmainSection from './ContactmainSection'
 import ContactBigform from './ContactBigform'
 import ContactMapSection from './ContactMapSection'
+import ContactBlacknavigation from './ContactBlacknavigation'
 
 const ContactBody = () => {
   return (
@@ -12,9 +13,8 @@ const ContactBody = () => {
          <ContactmainSection />
          <ContactBigform />
          <ContactMapSection />
-         
-
-
+         <ContactBlacknavigation />
+        
     </body>
    
 

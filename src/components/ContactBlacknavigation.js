@@ -1,11 +1,14 @@
 import React from 'react'
 
+import blackCritoLogo from '../assets/images/black-crito-logo.svg'
+import greyLines from '../assets/images/grey-lines.svg'
+
 const ContactBlacknavigation = () => {
   return (
     <section className="black-navigation">
     <div className="container">
       <div className="crito">
-        <img src="images/black-crito-logo.svg" alt="">
+        <img src={blackCritoLogo} alt=""/>
         <p>Lorem ipsum dolor sit amet consectetur<br/> adipisicing elit. Placeat obcaecati voluptas<br/> voluptates! Voluptates laborum nam<br/> ratione minus necessitatibus, iure<br/> praesentium.</p>
       </div>
       <div className="small-titles">
@@ -38,7 +41,7 @@ const ContactBlacknavigation = () => {
       </div>
     </div>
     <div className="grey-lines">
-      <img src="images/grey-lines.svg" alt="">
+      <img src={greyLines} alt=""/>
     </div>
   </section>
   )
