@@ -27,7 +27,7 @@ const ArticleandnewsSection = () => {
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
       </div>
       <div className="yellow-rectangle-3">
-        <img src="images/yellow-rectangle.svg" alt=""/>
+        <img src={yellowRectangle}alt=""/>
         <p className="mars-13"><span className="day">13</span><br/>Mar</p>
       </div>
       <div className="text-under-img">
@@ -37,7 +37,7 @@ const ArticleandnewsSection = () => {
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
       </div>
       <div className="yellow-rectangle-2">
-        <img src="images/yellow-rectangle.svg" alt=""/>
+        <img src={yellowRectangle} alt=""/>
         <p className="mars-17"><span className="day">17</span><br/>Mar</p>
       </div>
       <div className="text-under-img">
@@ -46,8 +46,8 @@ const ArticleandnewsSection = () => {
         <h4>The Guide To Support Modern CSS Design</h4>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
       </div>
-      <div className={yellowRectangle}/>
-        <img src="images/yellow-rectangle.svg" alt=""/>
+      <div className= "yellow-rectangle-1">
+        <img src={yellowRectangle} alt=""/>
         <p className="mars-25">25<br/>Mar</p>
       </div>
     </div>
@@ -58,10 +58,8 @@ const ArticleandnewsSection = () => {
       <div className="circle"></div>
       <div className="circle"></div>
     </div>
+    </div>
     </section>
-   
-
-
   )
 }
 
