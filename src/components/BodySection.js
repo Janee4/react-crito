@@ -6,6 +6,7 @@ import AboutcompanySection from './AboutcompanySection'
 import OurservicesSection from './OurservicesSection'
 import WhychooseusSection from './WhychooseusSection'
 import ProjectandcaseSection from './ProjectandcaseSection'
+import MeetourteamSection from './MeetourteamSection'
 
 
 
@@ -13,11 +14,12 @@ const BodySection = () => {
   return (
     <body>
     <ShowcaseSection />
-    <FeaturesSection/>
-    <AboutcompanySection/>
-    <OurservicesSection/>
-    <WhychooseusSection/>
-    <ProjectandcaseSection/>
+    <FeaturesSection />
+    <AboutcompanySection />
+    <OurservicesSection />
+    <WhychooseusSection />
+    <ProjectandcaseSection />
+    <MeetourteamSection />
     </body>
   )
 }
