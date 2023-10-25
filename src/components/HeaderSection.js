@@ -4,7 +4,7 @@ import NavSectionContainer from './NavSectionContainer'
 
 
 
-const Header = () => {
+const HeaderSection = () => {
   return (
     <header>
 
@@ -16,4 +16,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderSection

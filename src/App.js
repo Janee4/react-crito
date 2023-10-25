@@ -3,12 +3,13 @@ import Header from './components/HeaderSection'
 import './App.css';
 import BodySection from './components/BodySection';
 import Footer from './components/Footer';
+import HeaderSection from './components/HeaderSection';
 // import './App.scss';
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <HeaderSection />
       <BodySection />
       <Footer/>
       
