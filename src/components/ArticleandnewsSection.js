@@ -16,7 +16,7 @@ const ArticleandnewsSection = () => {
         <h2>Get Every Single Articles & News</h2>
       </div>
       <div className="btn-class">
-        <a className="btn-transparent" href="login.html"><br/>owse Articles<i className="fa-regular fa-arrow-up-right"></i></a>
+      <a class="btn-transparent" href="login.html">Browse Articles<i class="fa-regular fa-arrow-up-right"></i></a>
       </div>
     </div>
     <div className="how-to-section">
