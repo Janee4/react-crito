@@ -2464,6 +2464,12 @@ header .container .menu .main-menu .btn-login i {
   }
 }
 
+.big-form span {
+  padding-left: 120px;
+  font-size: 0.8em;
+  color: rgb(228, 106, 106);
+  font-weight: 500;
+}
 .big-form .container {
   background-color: #ffffff;
   width: 390px;
@@ -2489,7 +2495,7 @@ header .container .menu .main-menu .btn-login i {
 }
 @media (min-width: 576px) {
   .big-form .container .title {
-    padding-top: 90px;
+    padding-top: 40px;
   }
 }
 .big-form .container .title h2 {
@@ -2520,7 +2526,7 @@ header .container .menu .main-menu .btn-login i {
     font-size: 16px;
     border: none;
     background-color: rgb(255, 255, 255);
-    margin: 10px 100px 10px 100px;
+    margin: 10px 100px 0px 100px;
     box-shadow: none;
   }
   .big-form .container .form-1 input {
@@ -2551,7 +2557,7 @@ header .container .menu .main-menu .btn-login i {
     font-size: 16px;
     border: none;
     background-color: rgb(255, 255, 255);
-    margin: 10px 100px 10px 100px;
+    margin: 10px 100px 0px 100px;
     box-shadow: none;
   }
   .big-form .container .form-2 input {
@@ -2583,7 +2589,7 @@ header .container .menu .main-menu .btn-login i {
     background-color: rgb(255, 255, 255);
     height: 170px;
     margin-top: 10px;
-    margin: 10px 100px 10px 100px;
+    margin: 10px 100px 0px 100px;
     box-shadow: none;
   }
   .big-form .container .form-3 input {

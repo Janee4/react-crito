@@ -7,18 +7,21 @@ const ContactBigform = () => {
     <div className="title">
       <h2>Leave us a message<br/>for any information.</h2>
     </div>
+    
+    
     <form className="form-1" id="name" action="#" method="post">
-      <label for="name"></label>
-      <input type="text" placeholder="Name*"/>
+      <input type="text" placeholder="Name*"/>  
     </form>
+    <span>Please enter a valid name </span>
+    
     <form className="form-2" action="#" method="post">
-      <label for="email-2"></label>
       <input type="text" placeholder="Email*"/>
     </form>
+    <span>Please enter a valid name </span>
     <form className="form-3" action="#" method="post">
-      <label for="message"></label>
       <input type="text" placeholder="Your Message*"/>
     </form>
+    <span>Please enter a valid name </span>
     <div className="btn">
       <a className="btn-send-message" id="login" href="login.html">Send Message<i className="fa-regular fa-arrow-up-right"></i></a>
     </div>
