@@ -1,19 +1,21 @@
 import React from 'react'
-import Header from './components/HeaderSection'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import BodySection from './components/BodySection';
-import Footer from './components/Footer';
-import HeaderSection from './components/HeaderSection';
-// import './App.scss';
+
+
+
+import Home from './components/View/Home'
+import ContactUs from './components/View/ContactUs';
+
 
 const App = () => {
   return (
-    <div>
-      <HeaderSection />
-      <BodySection />
-      <Footer/>
-      
-    </div>
+  <BrowserRouter>
+        <Routes>
+          <Route path = '/' element={<Home/>} /> 
+          <Route path = '/contact' element={<ContactUs/>} /> 
+        </Routes>
+    </BrowserRouter>
   )
 }
 

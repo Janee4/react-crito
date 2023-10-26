@@ -1,13 +1,14 @@
 import React from 'react'
 
-import ContactHeader from './ContactHeader'
+
 import ContactBody from './ContactBody'
 import ContactFooter from './ContactFooter'
+import NavSectionContainer from './NavSectionContainer'
 
 const Contact = () => {
   return (
     <>
-    <ContactHeader />
+    <NavSectionContainer />
     <ContactBody />
     <ContactFooter />
     

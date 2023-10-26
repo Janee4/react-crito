@@ -1,14 +1,15 @@
 import React from 'react'
 
-import ContactHeader from '../ContactHeader'
+
 import ContactBody from '../ContactBody'
 import ContactFooter from '../ContactFooter'
+import HeaderSection from '../HeaderSection'
 
 const ContactUs = () => {
   return (
    <>
    
-   <ContactHeader />
+   <HeaderSection />
    <ContactBody />
    <ContactFooter />
    

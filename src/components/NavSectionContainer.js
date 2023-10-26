@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -33,10 +34,10 @@ const NavSectionContainer = () => {
       </div>
       <div className="main-menu"> 
         <nav>
-          <a className="active" href="flexbox-3.html">Home</a>
-          <a href="home.html">Service</a>
-          <a href="home.html">News</a>
-          <a href="contact.html">Contact</a>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/services">Services</NavLink>
+        <NavLink to="/news">News</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         </nav> 
         <a className="btn-yellow btn-login" id="login" href="login.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
       </div>

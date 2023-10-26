@@ -18,7 +18,7 @@ const WhychooseusSection = () => {
       </div>
       <div className="text-and-img">
         <div>
-          <img src={processExcellence} alt="a picture of a thumb pointing up"/>
+          <img src={processExcellence} alt="a thumb pointing up"/>
         </div>
         <div id="different-style">
           <h3>Process Excellence</h3>
@@ -27,7 +27,7 @@ const WhychooseusSection = () => {
       </div>
       <div className="text-and-img">
         <div>
-          <img src={strategicPlanning} alt="a picture of a thumb pointing up"/>
+          <img src={strategicPlanning} alt="a thumb pointing up"/>
         </div>
         <div id="different-style">
           <h3>Strategic Planning</h3>
@@ -36,7 +36,7 @@ const WhychooseusSection = () => {
       </div>
       <div className="text-and-img">
         <div>
-          <img src={experienceDesign} alt="a picture of a thumb pointing up"/>
+          <img src={experienceDesign} alt="a thumb pointing up"/>
         </div>
         <div id="different-style">
           <h3>Experience Design</h3>
@@ -45,7 +45,7 @@ const WhychooseusSection = () => {
       </div>
       <div className="text-and-img">
         <div>
-          <img src={artificialInteligence} alt="a picture of a thumb pointing up"/>
+          <img src={artificialInteligence} alt="a thumb pointing up"/>
         </div>
         <div>
           <h3>Artificial Inteligence</h3>
@@ -56,7 +56,7 @@ const WhychooseusSection = () => {
     <div className="right">
       <div className="beige-box">
       </div>
-      <img src={twoWomen} alt="a picture of two women talking"/>
+      <img src={twoWomen} alt="two women talking"/>
     </div>
   </div>
 </section>
