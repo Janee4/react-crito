@@ -34,7 +34,7 @@ const NavSectionContainer = () => {
       </div>
       <div className="main-menu"> 
         <nav>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">Home</NavLink> 
         <NavLink to="/services">Services</NavLink>
         <NavLink to="/news">News</NavLink>
         <NavLink to="/contact">Contact</NavLink>
