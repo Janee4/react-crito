@@ -2,7 +2,7 @@ import React from 'react'
 
 
 import thinLine from '../assets/images/thin-line (2).svg'
-import line from '../assets/images/line.svg'
+import ServiceBox from './ServiceBox'
 
 
 const OurservicesSection = () => {
@@ -15,33 +15,16 @@ const OurservicesSection = () => {
     <div className="main-text">
       <p>Our Services</p>
       <h2>We Provide The Best<br/>Service For Consulting</h2>
-    </div>        
+    </div>   
+
     <div className="boxes">
-      <div className="box-1">
-        <img src={line} alt="line"/>
-        <h3>Business Advice</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-        <a className="btn-go-to" href=""><i className="fa-solid fa-arrow-right"></i></a>
-      </div>
-      <div className="box-2">
-        <img src={line} alt="line"/>
-        <h3>Startup Business</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-        <a className="btn-yellow-box" href=""><i className="fa-solid fa-arrow-right"></i></a>
-      </div>
-      <div className="box-3">
-        <img src={line} alt="line"/>
-        <h3>Financial Advice</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-        <a className="btn-go-to" href=""><i className="fa-solid fa-arrow-right"></i></a>
-      </div>
-      <div className="box-4">
-        <img src={line} alt="line"/>
-        <h3>Risk Management</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-        <a className="btn-go-to" href=""><i className="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
+    <ServiceBox title="Business Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/businessadvice" boxNumber={1} />
+    <ServiceBox className="box-2" title="Startup Business" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/startupbusiness" boxNumber={2} />
+    <ServiceBox title="Financial Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/financialadvice"boxNumber={3}/>
+    <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/riskmanagement" boxNumber={4} />
+    </div>     
+    
+  
     <div className="centered-browse-services-button">
       <div className="button-under-boxes">
         <a className="btn-transparent" href="Browse-services.html">Browse Services <i className="fa-regular fa-arrow-up-right"></i></a>
