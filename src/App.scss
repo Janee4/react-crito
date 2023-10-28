@@ -1140,21 +1140,21 @@ header {
             background-color: #ffffff;
             border: solid 1px rgb(255, 255, 255);
             color: #191919; /*Textens färg */
-            height: 40px;
-            width: 40px;
+            height: 50px;
+            width: 50px;
             border-radius: 25px;
-            margin-left: 220px;
-            margin-top: 10px;
+            margin-left: 200px;
+            margin-top: 18px;
             z-index: 1;
             
             i {
               position: absolute;
               color: rgb(0, 0, 0);
-              margin-left: 15px;
-              margin-top: 10px;
-              font-size: 1em;
+              margin-left: 20px;
+              margin-top: 15px;
+              font-size: 1.2em;
               font-weight: 400;
-              transform: translate(-20%, -0%); /* Centrera ikonen helt och hållet */
+              transform: translate(-20%, -0%)
             }
           }
         

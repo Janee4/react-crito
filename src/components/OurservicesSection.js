@@ -18,10 +18,10 @@ const OurservicesSection = () => {
     </div>   
 
     <div className="boxes">
-    <ServiceBox title="Business Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/businessadvice" boxNumber={1} />
-    <ServiceBox className="box-2" title="Startup Business" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/startupbusiness" boxNumber={2} />
-    <ServiceBox title="Financial Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/financialadvice"boxNumber={3}/>
-    <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/riskmanagement" boxNumber={4} />
+    <ServiceBox title="Business Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/businessadvice" buttonClass="btn-go-to" boxNumber={1} />
+    <ServiceBox className="box-2" title="Startup Business" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/startupbusiness" buttonClass="btn-yellow-box" boxNumber={2} />
+    <ServiceBox title="Financial Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/financialadvice" buttonClass="btn-go-to" boxNumber={3}/>
+    <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="services/riskmanagement" buttonClass="btn-go-to" boxNumber={4} />
     </div>     
     
   
