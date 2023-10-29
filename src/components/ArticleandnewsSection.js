@@ -20,7 +20,7 @@ const ArticleandnewsSection = () => {
       </div>
     </div>
     <div className="how-to-section">
-      <div className="text-under-img">
+    <div className="text-under-img">
         <a href="how-to.html"><img src={articleAndNews1} alt="a picture of a woman smiling"/></a>
         <p id="business">Business</p>
         <h4>How To Use Digitalization In The Classroom</h4>
