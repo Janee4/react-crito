@@ -1,13 +1,15 @@
 import React from 'react'
-
-
-import notFound from '../../assets/images/notFound.jpg'
+import HeaderSection from '../HeaderSection'
+import NewsBody from '../NewsComponents/NewsBody'
 
 const News = () => {
   return (
     <>
-    <img src={notFound} alt="" />
+    <HeaderSection />
+    <NewsBody />
+    
     </>
+    
   )
 }
 
