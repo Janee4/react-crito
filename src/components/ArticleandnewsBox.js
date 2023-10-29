@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import yellowRectangle from '../assets/images/yellow-rectangle.svg'
 
 const ArticleandnewsBox = ({imageSrc, title, customClass, dateClassName, day, month}) => {

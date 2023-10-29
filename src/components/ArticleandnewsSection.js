@@ -1,9 +1,9 @@
 import React from 'react'
 
+
 import articleAndNews1 from '../assets/images/articles-and-news-1.png'
 import articleAndNews2 from '../assets/images/articles-and-news-2.png'
 import articleAndNews3 from '../assets/images/articles-and-news-3.png'
-import yellowRectangle from '../assets/images/yellow-rectangle.svg'
 import ArticleandnewsBox from './ArticleandnewsBox'
 
 
