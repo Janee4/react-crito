@@ -2,8 +2,8 @@ import React from 'react'
 
 import yellowRectangle from '../assets/images/yellow-rectangle.svg'
 
-const ArticleandnewsBox = ({imageSrc, title, customClass, day, month}) => {
-  const dateClassName = `${month.toLowerCase()}-${day}`;
+const ArticleandnewsBox = ({imageSrc, title, customClass, dateClassName, day, month}) => {
+
   
   return (
     <>
@@ -20,10 +20,7 @@ const ArticleandnewsBox = ({imageSrc, title, customClass, day, month}) => {
           <br />
           {month}
         </p>
-      </div>
-    
-    
-    
+      </div> 
     </>
   )
 }
