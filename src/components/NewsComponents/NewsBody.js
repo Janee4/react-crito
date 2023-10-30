@@ -36,15 +36,18 @@ const NewsBody = () => {
     <ArticleandnewsNinepics title="Using Business Intelligence To Get Insights Into Our Businesses" imageSrc={articleAndNews7} customClass="yellow-rectangle-1" dateClassName="mars-25"day="25" month="Mar" />
     <ArticleandnewsNinepics title="Apple Has Released New Products. Are They Any Good?" imageSrc={articleAndNews8} customClass="yellow-rectangle-1" dateClassName="mars-25"day="25" month="Mar" />
     <ArticleandnewsNinepics title="How To Improve Your Teams And Get A Better Result" imageSrc={articleAndNews9} customClass="yellow-rectangle-1" dateClassName="mars-25"day="25" month="Mar" />
-    
-      </div>
-    <div className="circles">
-      <div className="circle-1"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
-      <div className="circle"></div>
     </div>
+    
+    <div className="number-container">
+      <div className="arrows">{<i class="fa-solid fa-angle-left"></i>}</div>
+      <div className="number-box">1</div>
+      <div className="number-box">2</div>
+      <div className="number-box">3</div>
+      <div className="number-box">{'...'}</div>
+      <div className="number-box">9</div>
+      <div className="arrows">{<i class="fa-solid fa-angle-right"></i>}</div>
+    </div>
+    
     </div>
     
     </section>
