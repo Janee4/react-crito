@@ -12,7 +12,9 @@ import articleAndNews6 from '../../assets/images/articles-and-news-6.png'
 import articleAndNews7 from '../../assets/images/articles-and-news-7.png'
 import articleAndNews8 from '../../assets/images/articles-and-news-8.png'
 import articleAndNews9 from '../../assets/images/articles-and-news-9.png'
+import blackM from '../../assets/images/black-M.svg'
 import ArticleandnewsNinepics from './ArticleandnewsNinepics'
+import OverblacknavSectionNews from './OverblacknavSectionNews'
 
 const NewsBody = () => {
   return (
@@ -47,10 +49,17 @@ const NewsBody = () => {
       <div className="number-box">9</div>
       <div className="arrows">{<i class="fa-solid fa-angle-right"></i>}</div>
     </div>
-    
     </div>
-    
     </section>
+    <section className="signup">
+  <div className="m-detail">
+    <img src={blackM} alt="a black detail that is shaped as the letter M"/>
+  </div>
+  <div className="container">
+    <OverblacknavSectionNews title="Get News Updates By Signup" placeholderText="" btn="" btnText=""/>
+  </div>
+</section>
+
     
    
     
