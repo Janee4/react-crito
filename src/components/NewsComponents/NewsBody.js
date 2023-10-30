@@ -18,6 +18,7 @@ import greyLines from '../../assets/images/grey-lines.svg'
 import ArticleandnewsNinepics from './ArticleandnewsNinepics'
 import OverblacknavSectionNews from './OverblacknavSectionNews'
 import BlacknavigationNews from './BlacknavigationNews'
+import FooterSection from '../FooterSection'
 
 const NewsBody = () => {
   return (
@@ -78,6 +79,7 @@ const NewsBody = () => {
     <img src={greyLines} alt=""/>
   </div>
 </section>
+<FooterSection />
 
     
    
