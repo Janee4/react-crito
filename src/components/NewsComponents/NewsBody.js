@@ -56,7 +56,7 @@ const NewsBody = () => {
     <img src={blackM} alt="a black detail that is shaped as the letter M"/>
   </div>
   <div className="container">
-    <OverblacknavSectionNews title="Get News Updates By Signup" placeholderText="" btn="" btnText=""/>
+    <OverblacknavSectionNews title="Get News Updates By Signup" placeholderText="username@domain.com" btn="btn-subscribe" btnText="Subscribe"/>
   </div>
 </section>
 
