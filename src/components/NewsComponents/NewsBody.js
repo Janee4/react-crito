@@ -69,7 +69,10 @@ const NewsBody = () => {
       <img src={blackCritoLogo} alt=""/>
       <p>Lorem ipsum dolor sit amet consectetur<br/> adipisicing elit. Placeat obcaecati voluptas<br/> voluptates! Voluptates laborum nam<br/> ratione minus necessitatibus, iure<br/> praesentium.</p>
     </div>
-    <BlacknavigationNews divName="" title="" titleClass=""/>
+    <BlacknavigationNews divName="small-titles" titleClass="company" title="Company" title1="About" title2="Features" title3="Works" title4="Career" />
+    <BlacknavigationNews divName="small-titles help" titleClass="help" title="Help" title1="" title2="" title3="" title4="" />
+    <BlacknavigationNews divName="small-titles" title="Resources" title1="" title2="" title3="" title4="" />
+    <BlacknavigationNews divName="small-titles link" title="Link" title1="" title2="" title3="" title4=""/>
   </div>
   <div className="grey-lines">
     <img src={greyLines} alt=""/>
