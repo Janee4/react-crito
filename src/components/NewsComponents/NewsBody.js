@@ -40,7 +40,7 @@ const NewsBody = () => {
     
     <div className="number-container">
       <div className="arrows">{<i class="fa-solid fa-angle-left"></i>}</div>
-      <div className="number-box">1</div>
+      <div id="nrOne" className="number-box">1</div>
       <div className="number-box">2</div>
       <div className="number-box">3</div>
       <div className="number-box">{'...'}</div>

@@ -1,6 +1,13 @@
 .number-container {
   display: flex;
  justify-content: center;
+ margin-top: 30px;
+
+ #nrOne {
+  background-color: black;
+  color: #ffffff;
+
+ }
 
   .number-box {
     width: 30px;
