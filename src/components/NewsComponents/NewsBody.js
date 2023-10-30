@@ -13,8 +13,11 @@ import articleAndNews7 from '../../assets/images/articles-and-news-7.png'
 import articleAndNews8 from '../../assets/images/articles-and-news-8.png'
 import articleAndNews9 from '../../assets/images/articles-and-news-9.png'
 import blackM from '../../assets/images/black-M.svg'
+import blackCritoLogo from '../../assets/images/black-crito-logo.svg'
+import greyLines from '../../assets/images/grey-lines.svg'
 import ArticleandnewsNinepics from './ArticleandnewsNinepics'
 import OverblacknavSectionNews from './OverblacknavSectionNews'
+import BlacknavigationNews from './BlacknavigationNews'
 
 const NewsBody = () => {
   return (
@@ -57,6 +60,19 @@ const NewsBody = () => {
   </div>
   <div className="container">
     <OverblacknavSectionNews title="Get News Updates By Signup" placeholderText="username@domain.com" btn="btn-subscribe" btnText="Subscribe"/>
+  </div>
+</section>
+
+<section className="black-navigation">
+  <div className="container">
+    <div className="crito">
+      <img src={blackCritoLogo} alt=""/>
+      <p>Lorem ipsum dolor sit amet consectetur<br/> adipisicing elit. Placeat obcaecati voluptas<br/> voluptates! Voluptates laborum nam<br/> ratione minus necessitatibus, iure<br/> praesentium.</p>
+    </div>
+    <BlacknavigationNews divName="" title="" titleClass=""/>
+  </div>
+  <div className="grey-lines">
+    <img src={greyLines} alt=""/>
   </div>
 </section>
 
