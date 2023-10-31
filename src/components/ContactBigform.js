@@ -10,18 +10,18 @@ const ContactBigform = () => {
 
   const handleSubmit = (e) => {
       e.preventDefault()   //När vi trycker på "skicka meddelande" i vår knapp, så säger vi med e.preventDefault att "vänta, skicka ingenting än"
+
+console.log(email)
+
   }
   
     
     // const initialValues = { name: '', email: '', message: ''} //Det som står i input fältet innan användaren börjar skriva in sin information
-    const [name, setName] = useState({''}); //Lägger in initialValues här för det är den standarden vi vill börja ifrån dvs det ska vara tomt
-    const [email, setEmail] = useState({''});
-  const [message, setMessage] = useState({''});
-//   // const handleChange = (e) => { //När användaren interagerar med input fältet på formuläret så körs denna funktionen och därav står "e" för själva händelsen när användaren börjar skriva.
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
 
-// setFormValues (e.target.value)
-//       }
-    
+  
 
 
 return (
@@ -37,10 +37,8 @@ return (
     type="text" 
     name="name"
     placeholder="Name*"
-    onChange={}
-    value= {name} {/*Vi binder ihop input fältet med vår useState, så det som skrivs in här kopplas direkt till useState (state variabeln formValues) som kan manipuleras 
-  av setFormValues därefter */}
-    onChange={} 
+    value= {name}
+    onChange={ (e) => setName (e.target.value)} //värdet som skrivs in i input fältet sparas inuti setName
     /> 
   </div>
   
@@ -62,7 +60,7 @@ return (
     name="message" 
     placeholder="Your Message*"
     value= {message} 
-    onChange={} 
+    onChange={ (e) => setMessage(e.target.value)} 
     />
   </div>
  
