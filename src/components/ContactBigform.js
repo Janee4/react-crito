@@ -18,7 +18,7 @@ const ContactBigform = () => {
 
     if (!message) {
       setErrorMessage (<p>
-        Formuläret får inte vara tomt, var god skriv in ett meddelande.
+        Please enter a message.
         </p>)
     } else {
       setErrorMessage('')
@@ -26,7 +26,7 @@ const ContactBigform = () => {
 
     if (!email) {
       setErrorEmail (<p>
-        Formuläret får inte vara tomt, var god skriv in en email-adress.
+        Please enter an email.
         </p>) 
     } else {
       setErrorEmail('')
@@ -35,7 +35,7 @@ const ContactBigform = () => {
       
         if (!name) {
           setErrorName (<p>
-            Formuläret får inte vara tomt, var god skriv in en email-adress.
+           Please enter a name.
             </p>) 
         } else {
           setErrorName('')
