@@ -2950,6 +2950,7 @@ header .container .menu .main-menu .btn-login i {
   font-size: 0.8em;
   color: rgb(218, 71, 71);
   font-weight: 500;
+  display: flex;
 }
 .big-form .container {
   background-color: #ffffff;
