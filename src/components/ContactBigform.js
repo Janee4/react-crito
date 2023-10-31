@@ -1,6 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+
+
+
+
+
 
 const ContactBigform = () => {
+  
+  const initialValues = { name: '', email: '', message: ''} //Det som står i input fältet innan användaren börjar skriva in sin information
+  const [formValues, setFormValues] = useState({initialValues}); //Lägger in initialValues här för det är den standarden vi vill börja ifrån dvs det ska vara tomt
+
+  const handleChange = (e) => {
+
+
+  }
+
+
+
   return (
     <section className="big-form">
   <div className="container">
@@ -10,18 +27,27 @@ const ContactBigform = () => {
     
     <form id='form' action="#" method="post">
     <div className="form-1" id="name" >
-      <input type="text" placeholder="Name*"/>  
+      <input 
+      type="text" 
+      placeholder="Name*"
+      onChange={handleChange}/>
+        
     </div>
-    <span>Please enter a valid name </span>
+    
     
     <div className="form-2">
-      <input className='error' type="text" placeholder="Email*"/>
+      <input className='error' 
+      type="text" 
+      placeholder="Email*"/>
     </div>
-    <span>Please enter a valid name </span>
+    
+    
     <div className="form-3">
-      <input type="text" placeholder="Your Message*"/>
+      <input 
+      type="text" 
+      placeholder="Your Message*"/>
     </div>
-    <span>Please enter a valid name </span>
+   
     
 
     <div className="btn">

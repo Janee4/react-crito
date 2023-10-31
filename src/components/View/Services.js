@@ -1,13 +1,21 @@
-import React from 'react'
+import React from 'react';
+import {useState} from 'react';
 
 
-import notFoundTwo from '../../assets/images/notFound2.jpg'
+
+
 
 const Services = () => {
+  const [count, setCount] = useState(0);
+  
   return (
-    <>
-    <img src={notFoundTwo} alt="" />
-    </>
+    <div>
+      <h1>Count : {count}</h1>
+      <button onClick= {() => setCount (count - 1)}>Minska</button>
+      <button onClick={() => setCount (count + 1)}>Öka</button>
+
+
+    </div>
   )
 }
 
