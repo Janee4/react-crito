@@ -7,6 +7,11 @@ const ContactBigform = () => {
   const [errorEmail, setErrorEmail] = useState ('')
   const [errorMessage, setErrorMessage] = useState('')
   
+  const validateEmail = (email) => { // Skapar en funktion kallad validateEmail som tar en e-postadress som parameter
+    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/; // Skapar ett reguljärt uttryck (regex) som definierar ett giltigt e-postadressmönster
+    return emailRegex.test(email); // Använder regex-mönstret för att testa om den angivna e-postadressen (som användaren skriver in) matchar mönstret, och returnerar true om det matchar, annars false
+  };
+  
   
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,9 +25,9 @@ const ContactBigform = () => {
     }
   
     if (!email) {
-      setErrorEmail(
-        <p>Please enter an email.</p>
-      );
+      setErrorEmail(<p>Please enter an email.</p>);
+    } else if (!validateEmail(email)) {
+      setErrorEmail(<p>Please enter a valid email address.</p>);
     } else {
       setErrorEmail('');
     }
@@ -35,7 +40,7 @@ const ContactBigform = () => {
       setErrorName('');
     }
   
-    if (name && email && message) {
+    if (name && email && message && validateEmail(email)) {
       // Alla fälten är ifyllda, så skicka förfrågan
       fetch('https://win23-assignment.azurewebsites.net/index.html', {
         method: 'POST',
