@@ -40,11 +40,18 @@
         margin-top: 50px;
       }
       
-      p {
-        font-family: 'Inter', sans-serif; //textsnitt
-          font-size: 15px; 
-          font-weight: 400;
+      .paragraph-div {
+        margin-top: 40px;
+        p {
+          font-family: 'Inter', sans-serif; //textsnitt
+            font-size: 15px; 
+            font-weight: 400;
+            color: #707070;
+            margin-top: 25px; 
+            
+        }
       }
+      
 
   }
 
