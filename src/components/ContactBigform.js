@@ -1,47 +1,64 @@
 import React, { useState } from 'react'
 
-
-
-
-
-
-
 const ContactBigform = () => {
   
   
   const [errorName, setErrorName] = useState ('')
   const [errorEmail, setErrorEmail] = useState ('')
   const [errorMessage, setErrorMessage] = useState('')
+  
+  
   const handleSubmit = (e) => {
-    e.preventDefault()   //När vi trycker på "skicka meddelande" i vår knapp, så säger vi med e.preventDefault att "vänta, skicka ingenting än" vi ska först ta och gå igenom vad som skrivits in
-
-
+    e.preventDefault();
+  
     if (!message) {
-      setErrorMessage (<p>
-        Please enter a message.
-        </p>)
+      setErrorMessage(
+        <p>Please enter a message.</p>
+      );
     } else {
-      setErrorMessage('')
+      setErrorMessage('');
     }
-
+  
     if (!email) {
-      setErrorEmail (<p>
-        Please enter an email.
-        </p>) 
+      setErrorEmail(
+        <p>Please enter an email.</p>
+      );
     } else {
-      setErrorEmail('')
-        }
-
-      
-        if (!name) {
-          setErrorName (<p>
-           Please enter a name.
-            </p>) 
-        } else {
-          setErrorName('')
-            }
-
-  }
+      setErrorEmail('');
+    }
+  
+    if (!name) {
+      setErrorName(
+        <p>Please enter a name.</p>
+      );
+    } else {
+      setErrorName('');
+    }
+  
+    if (name && email && message) {
+      // Alla fälten är ifyllda, så skicka förfrågan
+      fetch('https://win23-assignment.azurewebsites.net/index.html', {
+        method: 'POST',
+        body: JSON.stringify({ name, email, message }), //Här omvandlas vårt javascripts objekt till en JSON-sträng 
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then(response => {
+          if (response.status === 200) {
+            return response.text();
+          } else {
+            console.error('Förfrågan misslyckades med statuskod ' + response.status);
+          }
+        })
+        .then(data => {
+          console.log(data);
+        })
+        .catch(error => {
+          console.error('Något gick fel!');
+        });
+    }
+  };
   
     
     // const initialValues = { name: '', email: '', message: ''} //Det som står i input fältet innan användaren börjar skriva in sin information
