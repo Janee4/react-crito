@@ -60,8 +60,7 @@ const ContactBigform = () => {
     }
   };
   
-    
-    // const initialValues = { name: '', email: '', message: ''} //Det som står i input fältet innan användaren börjar skriva in sin information
+    // dessa används för att hålla koll på vad användaren skriver in och sedan uppdatera det till det användaren skrivit in. 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -82,8 +81,8 @@ return (
     type="text" 
     name="name"
     placeholder="Name*"
-    value= {name}
-    onChange={ (e) => setName (e.target.value)} //värdet som skrivs in i input fältet sparas inuti setName
+    value= {name} //vad användaren skriver in för namn i input fältet
+    onChange={ (e) => setName (e.target.value)} //värdet som skrivs in i input fältet sparas inuti setName och skickas till handleSubmit för att valideras
     /> 
   </div>
   <span>{errorName}</span>
