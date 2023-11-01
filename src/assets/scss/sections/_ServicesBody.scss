@@ -14,21 +14,36 @@
         text-align: left;
       }
        
-      .paragraph-under-title {
+      .under-title-div {
         display: flex;
-        justify-content: center;
-        p {
-          font-family: 'DM Sans', sans-serif;
-          font-size: 15px;
-        
+        .paragraph-under-title {
+          display: flex;
+          justify-content:start;
+          p {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 15px;
+          
+          }
+          .yellow-circle {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #F9D783;
+            margin-right: 12px;
+            margin-top: 4px;
+            margin-left: 20px;
+            margin-right: 20px;
+          }
         }
-        .yellow-circle {
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background-color: #F9D783;
-          margin-right: 12px;
-        }
+      }
+      img {
+        margin-top: 50px;
+      }
+      
+      p {
+        font-family: 'Inter', sans-serif; //textsnitt
+          font-size: 15px; 
+          font-weight: 400;
       }
 
   }
