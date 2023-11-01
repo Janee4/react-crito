@@ -13,7 +13,23 @@
         padding-bottom: 16px;
         text-align: left;
       }
+       
+      .paragraph-under-title {
+        display: flex;
+        justify-content: center;
+        p {
+          font-family: 'DM Sans', sans-serif;
+          font-size: 15px;
         
+        }
+        .yellow-circle {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: #F9D783;
+          margin-right: 12px;
+        }
+      }
 
   }
 

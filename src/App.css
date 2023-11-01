@@ -491,6 +491,21 @@
   padding-bottom: 16px;
   text-align: left;
 }
+.news-and-articles .container .left .paragraph-under-title {
+  display: flex;
+  justify-content: center;
+}
+.news-and-articles .container .left .paragraph-under-title p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+.news-and-articles .container .left .paragraph-under-title .yellow-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #F9D783;
+  margin-right: 12px;
+}
 
 * {
   box-sizing: border-box;
