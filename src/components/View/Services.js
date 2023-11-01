@@ -1,18 +1,21 @@
 import React from 'react';
 import {useState} from 'react';
+import HeaderSection from '../HeaderSection';
+import FooterSection from '../FooterSection';
+import BlacknavigationNews from '../NewsComponents/BlacknavigationNews';
+import BlacknavigationSection from '../BlacknavigationSection';
 
 
 
 
 
 const Services = () => {
-  const [count, setCount] = useState(0);
   
   return (
     <div>
-      <h1>Count : {count}</h1>
-      <button onClick= {() => setCount (count - 1)}>Minska</button>
-      <button onClick={() => setCount (count + 1)}>Öka</button>
+      <HeaderSection />
+      <BlacknavigationSection />
+      <FooterSection/>
 
 
     </div>
