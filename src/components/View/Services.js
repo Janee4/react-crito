@@ -1,9 +1,8 @@
 import React from 'react';
-import {useState} from 'react';
 import HeaderSection from '../HeaderSection';
 import FooterSection from '../FooterSection';
-import BlacknavigationNews from '../NewsComponents/BlacknavigationNews';
 import BlacknavigationSection from '../BlacknavigationSection';
+import ServicesBody from '../ServiceComponents.js/ServicesBody';
 
 
 
@@ -14,10 +13,9 @@ const Services = () => {
   return (
     <div>
       <HeaderSection />
+      <ServicesBody />
       <BlacknavigationSection />
       <FooterSection/>
-
-
     </div>
   )
 }
