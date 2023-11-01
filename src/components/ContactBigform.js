@@ -42,25 +42,26 @@ const ContactBigform = () => {
   
     if (name && email && message && validateEmail(email)) {
       // Alla fälten är ifyllda, så skicka förfrågan
-      fetch('https://win23-assignment.azurewebsites.net/index.html', {
+      fetch('https://win23-assignment.azurewebsites.net/api/contactform', { //en funktion som gör att man kan skicka informationen till en URL
         method: 'POST',
-        body: JSON.stringify({ name, email, message }), //Här omvandlas vårt javascripts objekt till en JSON-sträng 
+        body: JSON.stringify({ name, email, message }), //Här omvandlas vårt javascripts objekt(vår data) till en JSON-sträng 
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json', //Hur ska den läsa datan? Här har vi skrivit att den ska läsa informationen som "application/json"
         },
       })
-        .then(response => {
-          if (response.status === 200) {
-            return response.text();
-          } else {
-            console.error('Förfrågan misslyckades med statuskod ' + response.status);
-          }
+      .then(response => { //Efter att vi skickat iväg formuläret så ska något skickas tillbaka till oss och beroende på vad vi får för svar så kan vi göra olika saker
+        if (response.status === 200) { //Här kollar vi om statuskoden är 200 = OK så vill 
+          console.log('Your message has been sent!')
+          return response.text();
+        } else {
+          console.error('Request failed ' + response.status);
+        }
         })
         .then(data => {
           console.log(data);
         })
         .catch(error => {
-          console.error('Något gick fel!');
+          console.error('Something went wrong!');
         });
     }
   };
