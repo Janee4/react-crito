@@ -5,6 +5,7 @@ import articleImg1 from '../assets/images/article-img1.png'
 import articleImg2 from '../assets/images/article-img2.png'
 import articleImg3 from '../assets/images/article-img3.png'
 import articleImg4 from '../assets/images/article-img4.png'
+import ProjectandcaseBox from './ProjectandcaseBox'
 
 const ProjectandcaseSection = () => {
   return (
@@ -15,26 +16,10 @@ const ProjectandcaseSection = () => {
       <h2>Let's Looks Our Global Projects</h2>
     </div>
     <div className="project-and-cases">
-      <article>
-        <a href="art.html"><img src={articleImg1} alt="A mans hand reading a business paper" /></a>
-        <h3>Grow your business</h3>
-        <a className="read-more" href="#">Read More<i className="fa-regular fa-arrow-up-right"></i></a>
-      </article>
-      <article>
-        <a href="art.html"><img src={articleImg2} alt="Pink apple products" /></a>
-        <h3>Why your client needs a responsive website</h3>
-        <a className="read-more" href="#">Read More<i className="fa-regular fa-arrow-up-right"></i></a>
-      </article>
-      <article>
-        <a href="art.html"><img src={articleImg3} alt="Desk with office supplies"/></a> 
-        <h3>Educate your employees to get better results</h3>
-        <a className="read-more" href="#">Read More<i className="fa-regular fa-arrow-up-right"></i></a>
-      </article>
-      <article>
-        <a href="art.html"><img src={articleImg4} alt="Laptop with business Intelligence Insights"/></a>
-        <h3>Business Insights is a important piece of your business</h3>
-        <a className="read-more" href="#">Read More<i className="fa-regular fa-arrow-up-right"></i></a>
-      </article>
+    <ProjectandcaseBox imgSrc={articleImg1} title="Grow your business"  />
+    <ProjectandcaseBox imgSrc={articleImg2} title="Why your client needs a responsive website"  />
+    <ProjectandcaseBox imgSrc={articleImg3} title="Educate your employees to get better results"  />
+    <ProjectandcaseBox imgSrc={articleImg4} title="Business Insights is a important piece of your business"  />
     </div>
     <div className="all-recent-projects-div">
       <a className="btn-black" href="projects.html">All Recent Projects<i className="fa-regular fa-arrow-up-right"></i></a>
