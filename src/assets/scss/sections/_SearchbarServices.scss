@@ -1,23 +1,26 @@
-.search-bar {
-    display: inline-block;
-    margin-right: 10px;
+
+.right {
+  
+  .form-div {
+
+  .search-bar {
     border-radius: 25px;
-    border: solid 1px black;
-    display: flex;
-    border-radius: 25px;
+   margin: 250px 10px 0px 100px;
+    
 
     input {
-      border: solid 1px rgb(36, 36, 36);
       text-align: center;
       font-size: 5px;
       outline: none;
+      background-color: #F0EFE9;
+      border: none;
     }
 
     #email {
-      border-radius: 25px; /* Rundade kanter */
+      border-radius: 30px; /* Rundade kanter */
       font-size: 16px; /* Ange textstorlek */
-      padding: 14px 40px 14px 40px; /* Lägg till lite utrymme runt texten */
-    border: none;
+      padding: 17px 150px 17px 40px; /* Lägg till lite utrymme runt texten */
+      
     }
 
     #email::placeholder {
@@ -26,3 +29,12 @@
       font-size: 17px;
     }  
 }
+
+}
+    
+
+  }
+
+
+
+

@@ -573,32 +573,28 @@
   color: #F0EFE9;
 }
 
-.search-bar {
-  display: inline-block;
-  margin-right: 10px;
+.right .form-div .search-bar {
   border-radius: 25px;
-  border: solid 1px black;
-  display: flex;
-  border-radius: 25px;
+  margin: 250px 10px 0px 100px;
 }
-.search-bar input {
-  border: solid 1px rgb(36, 36, 36);
+.right .form-div .search-bar input {
   text-align: center;
   font-size: 5px;
   outline: none;
-}
-.search-bar #email {
-  border-radius: 25px; /* Rundade kanter */
-  font-size: 16px; /* Ange textstorlek */
-  padding: 14px 40px 14px 40px; /* Lägg till lite utrymme runt texten */
+  background-color: #F0EFE9;
   border: none;
 }
-.search-bar #email::-moz-placeholder {
+.right .form-div .search-bar #email {
+  border-radius: 30px; /* Rundade kanter */
+  font-size: 16px; /* Ange textstorlek */
+  padding: 17px 150px 17px 40px; /* Lägg till lite utrymme runt texten */
+}
+.right .form-div .search-bar #email::-moz-placeholder {
   color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
   font-style: italic; /* Kursiv stil för plachållartexten */
   font-size: 17px;
 }
-.search-bar #email::placeholder {
+.right .form-div .search-bar #email::placeholder {
   color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
   font-style: italic; /* Kursiv stil för plachållartexten */
   font-size: 17px;
