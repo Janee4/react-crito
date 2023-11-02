@@ -3,7 +3,8 @@
   .container {
     
     .left {
-      
+      margin-bottom: 50px;
+
       h3 {
         color: #191919;
         font-family: 'DM Sans', sans-serif;
@@ -72,11 +73,12 @@
         }
       }
       
-      p {
+      .paragraph-six {
         font-family: 'Inter', sans-serif; //textsnitt
         font-size: 15px; 
         font-weight: 400;
         color: #707070;
+        margin-bottom: 50px;
         
       }
 

@@ -3,7 +3,7 @@ import React from 'react'
 const ServicesGreyButton = ({description}) => {
   return (
     
-    <a className="grey-btn" href="">{description}<i className="fa-regular fa-arrow-up-right"></i></a>
+    <a className="grey-btn" href="">{description}</a>
   )
 }
 

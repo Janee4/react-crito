@@ -39,7 +39,7 @@ const ServicesBody = () => {
           </p>
         </div>
 
-        <p>
+        <p className="paragraph-six">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce<br/> posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros<br/> quis urna. unc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi<br/> tristique senectus et netus et malesuada fames ac turpis egestas. 
         </p>
       
