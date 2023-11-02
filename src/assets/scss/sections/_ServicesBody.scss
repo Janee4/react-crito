@@ -60,18 +60,25 @@
         
         img {
           margin-bottom: 105px;
-          margin-right: 30px;
-          
+          margin-right: 30px; 
           
         }
-          
 
         p {
           font-family: 'DM Sans', sans-serif;
             font-size: 20px;
+            color: black;
+          
         }
       }
       
+      p {
+        font-family: 'Inter', sans-serif; //textsnitt
+        font-size: 15px; 
+        font-weight: 400;
+        color: #707070;
+        
+      }
 
   }
 

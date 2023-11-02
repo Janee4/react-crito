@@ -536,6 +536,13 @@
 .news-and-articles .container .left .special-paragraph p {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
+  color: black;
+}
+.news-and-articles .container .left p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #707070;
 }
 
 * {
