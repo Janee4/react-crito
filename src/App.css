@@ -601,7 +601,7 @@
 }
 
 .right .recent-posts {
-  border: solid 1px #424242;
+  border: solid 2px #d6cfcf;
   height: 35rem;
   width: 25rem;
   margin: 50px 0px 50px 100px;
@@ -623,6 +623,9 @@
   color: #707070;
   margin-left: 20px;
 }
+.right .recent-posts .no-line {
+  border-bottom: none;
+}
 .right .recent-posts .gray-line {
   height: 1px;
   background-color: gray;
@@ -630,6 +633,9 @@
   width: 80%; /* Justera bredden efter behov */
   margin-top: 10px;
   margin-left: 40px;
+}
+.right .recent-posts .gray-line.no-line {
+  display: none; /* Dölj linjen om .no-line-klassen finns */
 }
 .right .categories {
   border: solid 1px #424242;
