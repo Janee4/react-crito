@@ -1,9 +1,17 @@
 import React from 'react'
 
-const RightSectionBoxes = ({title}) => {
+
+const RightSectionBoxes = ({title, description}) => {
+    const createMarkup = (htmlString) => ({
+        __html: htmlString
+      });
   return (
     <>
-       <h3>{title}</h3>
+    <div className="right-box">
+    <h4 dangerouslySetInnerHTML={createMarkup(title)} />
+      <p>{description}</p>
+      <div className="gray-line"></div>
+    </div>
     </>
  
   )

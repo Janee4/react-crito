@@ -2,14 +2,13 @@ import React, { useState } from 'react'
 
 const ContactBigform = () => {
   
-  
   const [errorName, setErrorName] = useState ('')
   const [errorEmail, setErrorEmail] = useState ('')
   const [errorMessage, setErrorMessage] = useState('')
   
   const validateEmail = (email) => { // Skapar en funktion kallad validateEmail som tar en e-postadress som parameter
-    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/; // Skapar ett reguljärt uttryck (regex) som definierar ett giltigt e-postadressmönster
-    return emailRegex.test(email); // Använder regex-mönstret för att testa om den angivna e-postadressen (som användaren skriver in) matchar mönstret, och returnerar true om det matchar, annars false
+  const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/; // Skapar ett reguljärt uttryck (regex) som definierar ett giltigt e-postadressmönster
+  return emailRegex.test(email); // Använder regex-mönstret för att testa om den angivna e-postadressen (som användaren skriver in) matchar mönstret, och returnerar true om det matchar, annars false
   };
   
   
@@ -66,16 +65,15 @@ const ContactBigform = () => {
     }
   };
   
-    // dessa används för att hålla koll på vad användaren skriver in och sedan uppdatera det till det användaren skrivit in. 
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
+  // dessa används för att hålla koll på vad användaren skriver in och sedan uppdatera det till det användaren skrivit in. 
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
-  
 
 
 return (
-  <section className="big-form">
+<section className="big-form">
 <div className="container">
   <div className="title">
     <h2>Leave us a message<br/>for any information.</h2>

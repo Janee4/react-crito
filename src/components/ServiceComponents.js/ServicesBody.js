@@ -65,10 +65,14 @@ const ServicesBody = () => {
           </div>
           <div className="recent-posts">
           <TitleRightSection title="Recent Posts" />
-          <RightSectionBoxes title="How To Blow Through Capital At An <br/> Incredible Rate"/>
+          <RightSectionBoxes title="How To Blow Through Capital At An<br/>Incredible Rate" description="Jan 14, 2020" />
+          <RightSectionBoxes title="Design Studios That Everyone Should Know About?" description="Jan 14, 2020" />
+          <RightSectionBoxes title="How To Blow Through Capital At An<br/>Incredible Rate" description="Jan 14, 2020" />
+          <RightSectionBoxes title="How To Blow Through Capital At An<br/>Incredible Rate" description="Jan 14, 2020" />
           </div>
           <div className="categories">
           <TitleRightSection title="Categories" />
+
           </div>
           
 

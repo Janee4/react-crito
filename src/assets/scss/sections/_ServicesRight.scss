@@ -10,6 +10,36 @@
         width: 25rem;
         margin: 50px 0px 50px 100px;
 
+        .right-box {
+            margin-top: 20px;
+        }
+        
+        h4 {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 18px;
+        margin-left: 20px;
+        font-weight: bold;
+        text-align: start;
+        }
+        
+        p {
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #707070;
+        margin-left: 20px;
+
+        }
+        
+        .gray-line {
+          height: 1px;
+          background-color: gray;
+          opacity: 0.2;
+          width: 80%; /* Justera bredden efter behov */
+          margin-top: 10px;
+          margin-left: 40px;
+        }
+
     }
 
     .categories{
