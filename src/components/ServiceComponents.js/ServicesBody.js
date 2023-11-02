@@ -5,6 +5,7 @@ import quoteSign from '../../assets/images/quote-sign.svg'
 import ServicesGreyButton from './ServicesGreyButton'
 import TitleRightSection from './TitleRightSection'
 import RightSectionBoxes from './RightSectionBoxes'
+import Categoriesbox from './Categoriesbox'
 
 
 
@@ -67,12 +68,17 @@ const ServicesBody = () => {
           <div className="recent-posts">
           <TitleRightSection title="Recent Posts" />
           <RightSectionBoxes title="How To Blow Through Capital At An<br/>Incredible Rate" description="Jan 14, 2020"isLast={false} />
-          <RightSectionBoxes title="Design Studios That Everyone Should Know About?" description="Jan 14, 2020" isLast={false} />
-          <RightSectionBoxes title="How did we get 1M+ visitors in 30 days without anything!" description="Jan 14, 2020" isLast={false}/>
+          <RightSectionBoxes title="Design Studios That Everyone Should<br/>Know About?" description="Jan 14, 2020" isLast={false} />
+          <RightSectionBoxes title="How did we get 1M+ visitors in 30 days<br/>without anything!" description="Jan 14, 2020" isLast={false}/>
           <RightSectionBoxes title="Figma On Figma: How We Built Our<br/>Website Design System" description="Jan 14, 2020" isLast={true} />
           </div>
           <div className="categories">
           <TitleRightSection title="Categories" />
+          <Categoriesbox firstText="Technology" secondText="20 Posts"/>
+          <Categoriesbox firstText="Freelancing" secondText="07 Posts"/>
+          <Categoriesbox firstText="Writing" secondText="16 Posts"/>
+          <Categoriesbox firstText="Business" secondText="35 Posts"/>
+          <Categoriesbox firstText="Education" secondText="14 Posts"/>
 
           </div>
           

@@ -587,7 +587,7 @@
 .right .form-div .search-bar #email {
   border-radius: 30px; /* Rundade kanter */
   font-size: 16px; /* Ange textstorlek */
-  padding: 17px 150px 17px 40px; /* Lägg till lite utrymme runt texten */
+  padding: 14px 110px 14px 50px; /* Lägg till lite utrymme runt texten */
 }
 .right .form-div .search-bar #email::-moz-placeholder {
   color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
@@ -603,7 +603,7 @@
 .right .recent-posts {
   border: solid 2px #d6cfcf;
   height: 35rem;
-  width: 25rem;
+  width: 23rem;
   margin: 50px 0px 50px 100px;
 }
 .right .recent-posts .right-box {
@@ -611,14 +611,14 @@
 }
 .right .recent-posts h4 {
   font-family: "DM Sans", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 20px;
   font-weight: bold;
   text-align: start;
 }
 .right .recent-posts p {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #707070;
   margin-left: 20px;
@@ -639,18 +639,36 @@
 }
 .right .categories {
   border: solid 2px #d6cfcf;
-  height: 35rem;
-  width: 25rem;
+  height: 18rem;
+  width: 23rem;
   margin-left: 100px;
+}
+.right .categories p {
+  margin-left: 20px;
+}
+.right .categories p .first-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.right .categories p .second-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
 }
 
 .right-title {
   margin-left: 20px;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 .right-title h3 {
   position: relative;
   display: inline; /* Sätt rubriken till inline för att linjen ska täcka endast texten */
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 .right-title h3::after {
   content: "";
