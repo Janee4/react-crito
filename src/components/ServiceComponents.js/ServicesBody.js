@@ -52,6 +52,14 @@ const ServicesBody = () => {
 
       </div>
       
+      <div className="right">
+      <form className="search-bar" action="#" method="post">
+          <label for="email"></label>
+          <input type="text" id="email" placeholder="username@domain.com"/>
+        </form>
+
+      </div>
+      
 
     </div>
 

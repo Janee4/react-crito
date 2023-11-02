@@ -482,6 +482,9 @@
   bottom: 0;
 }
 
+.news-and-articles .container {
+  display: flex;
+}
 .news-and-articles .container .left {
   margin-bottom: 50px;
 }
@@ -568,6 +571,41 @@
   background-color: #535252;
   border: 1px solid #424242;
   color: #F0EFE9;
+}
+
+.search-bar {
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 25px;
+  border: solid 1px black;
+  display: flex;
+  border-radius: 25px;
+}
+.search-bar input {
+  border: solid 1px rgb(36, 36, 36);
+  text-align: center;
+  font-size: 5px;
+  outline: none;
+}
+.search-bar #email {
+  border-radius: 25px; /* Rundade kanter */
+  font-size: 16px; /* Ange textstorlek */
+  padding: 14px 40px 14px 40px; /* Lägg till lite utrymme runt texten */
+  border: none;
+}
+.search-bar #email::-moz-placeholder {
+  color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
+  font-style: italic; /* Kursiv stil för plachållartexten */
+  font-size: 17px;
+}
+.search-bar #email::placeholder {
+  color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
+  font-style: italic; /* Kursiv stil för plachållartexten */
+  font-size: 17px;
+}
+
+.right {
+  display: flex;
 }
 
 * {
