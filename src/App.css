@@ -639,12 +639,13 @@
 }
 .right .categories {
   border: solid 2px #d6cfcf;
-  height: 18rem;
+  height: 14rem;
   width: 23rem;
   margin-left: 100px;
 }
 .right .categories p {
   margin-left: 20px;
+  line-height: 0.5;
 }
 .right .categories p .first-text {
   font-family: "DM Sans", sans-serif;
