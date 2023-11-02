@@ -638,7 +638,7 @@
   display: none; /* Dölj linjen om .no-line-klassen finns */
 }
 .right .categories {
-  border: solid 1px #424242;
+  border: solid 2px #d6cfcf;
   height: 35rem;
   width: 25rem;
   margin-left: 100px;

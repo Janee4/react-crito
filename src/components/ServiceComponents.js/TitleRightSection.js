@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TitleRightSection = ({title}) => {
+const TitleRightSection = ({title,}) => {
   return (
     <div className="right-title">
         <h3>{title}</h3>
