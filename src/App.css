@@ -600,8 +600,36 @@
   font-size: 17px;
 }
 
-.right {
-  display: flex;
+.right .recent-posts {
+  border: solid 1px #424242;
+  height: 35rem;
+  width: 25rem;
+  margin: 50px 0px 50px 100px;
+}
+.right .categories {
+  border: solid 1px #424242;
+  height: 35rem;
+  width: 25rem;
+  margin-left: 100px;
+}
+
+.right-title {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.right-title h3 {
+  position: relative;
+  display: inline; /* Sätt rubriken till inline för att linjen ska täcka endast texten */
+}
+.right-title h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Placera linjen i början av texten */
+  width: 50px; /* Ändra bredden efter behov */
+  height: 2px; /* Ändra höjden efter behov */
+  background-color: black;
+  transform: translateX(0);
 }
 
 * {

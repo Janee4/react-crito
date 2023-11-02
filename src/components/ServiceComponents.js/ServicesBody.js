@@ -2,14 +2,18 @@ import React from 'react'
 import InfoParagraph from './InfoParagraph'
 import kimberlyHansenBigPic from '../../assets/images/Kimberly-Hansen-Big-Pic.png'
 import quoteSign from '../../assets/images/quote-sign.svg'
-import ServicesGreyButton from '../../assets/MiniComponents.js/ServicesGreyButton'
+import ServicesGreyButton from './ServicesGreyButton'
+import TitleRightSection from './TitleRightSection'
+import RightSectionBoxes from './RightSectionBoxes'
+
+
 
 const ServicesBody = () => {
   return (
    <div className="news-and-articles">
     <div className="container">
       <div className="left">
-        <h3>How To Use Digitalization <br/>In The Classroom</h3>
+      <h3>How To Use Digitalization <br/>In The Classroom</h3>
         <div className="under-title-div">
           <InfoParagraph description="Mar 25, 2023" showYellowCircle={true}/>
           <InfoParagraph description="Business"showYellowCircle={true} />
@@ -58,6 +62,13 @@ const ServicesBody = () => {
               <label for="email"></label>
               <input type="text" id="email" placeholder="username@domain.com"/>
             </form>
+          </div>
+          <div className="recent-posts">
+          <TitleRightSection title="Recent Posts" />
+          <RightSectionBoxes title="How To Blow Through Capital At An <br/> Incredible Rate"/>
+          </div>
+          <div className="categories">
+          <TitleRightSection title="Categories" />
           </div>
           
 
