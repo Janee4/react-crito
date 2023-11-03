@@ -2456,6 +2456,7 @@ header .container .menu .main-menu .btn-login i {
 @media (min-width: 576px) {
   .article-and-news-9 .container .title-container .btn-class .btn-transparent {
     display: block;
+    margin-top: 160px;
   }
 }
 .article-and-news-9 .container .how-to-section {

@@ -11,7 +11,7 @@
 @import './assets/scss/sections/SearchbarServices';
 @import './assets/scss/sections/ServicesRight';
 @import './assets/scss/sections/TitleRightSection';
-@import './assets/scss/sections/ArticlesandnewsSectionServices.scss'
+
 * {
   box-sizing: border-box;
 }
@@ -1913,6 +1913,7 @@ header {
         
       .section-title {
         margin-top: 150px;
+       
         
         p {
           color: rgb(249, 77, 28);
@@ -1949,6 +1950,7 @@ header {
           
           @media (min-width: 576px) {
             display: block;  
+            margin-top: 160px;
           }
         }
       
