@@ -602,8 +602,8 @@
 
 .right .recent-posts {
   border: solid 2px #d6cfcf;
-  height: 35rem;
-  width: 23rem;
+  height: 29rem;
+  width: 20rem;
   margin: 50px 0px 50px 100px;
 }
 .right .recent-posts .right-box {
@@ -611,14 +611,14 @@
 }
 .right .recent-posts h4 {
   font-family: "DM Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 20px;
   font-weight: bold;
   text-align: start;
 }
 .right .recent-posts p {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: #707070;
   margin-left: 20px;
@@ -640,29 +640,31 @@
 .right .categories {
   border: solid 2px #d6cfcf;
   height: 14rem;
-  width: 23rem;
+  width: 20rem;
   margin-left: 100px;
 }
 .right .categories p {
   margin-left: 20px;
-  line-height: 0.5;
+  line-height: 0.7;
 }
 .right .categories p .first-text {
   font-family: "DM Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
+  margin-right: 3px;
 }
 .right .categories p .second-text {
   font-family: "DM Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   color: gray;
+  margin-left: 3px;
 }
 
 .right-title {
   margin-left: 20px;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .right-title h3 {
   position: relative;
