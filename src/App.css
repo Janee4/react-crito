@@ -488,10 +488,10 @@
 .news-and-articles .container .left {
   margin-bottom: 50px;
 }
-.news-and-articles .container .left h3 {
+.news-and-articles .container .left h4 {
   color: #191919;
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   padding-top: 85px;
   padding-bottom: 16px;
@@ -587,17 +587,34 @@
 .right .form-div .search-bar #email {
   border-radius: 30px; /* Rundade kanter */
   font-size: 16px; /* Ange textstorlek */
-  padding: 14px 110px 14px 50px; /* Lägg till lite utrymme runt texten */
+  padding: 14px 65px 14px 50px; /* Lägg till lite utrymme runt texten */
 }
 .right .form-div .search-bar #email::-moz-placeholder {
-  color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
-  font-style: italic; /* Kursiv stil för plachållartexten */
+  color: rgb(129, 129, 129); /* Grå färg för plachållartexten */
   font-size: 17px;
+  padding-right: 100px;
 }
 .right .form-div .search-bar #email::placeholder {
-  color: rgb(43, 41, 41); /* Grå färg för plachållartexten */
-  font-style: italic; /* Kursiv stil för plachållartexten */
+  color: rgb(129, 129, 129); /* Grå färg för plachållartexten */
   font-size: 17px;
+  padding-right: 100px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.input-container i.fa-magnifying-glass {
+  position: absolute;
+  left: 20px; /* Justera vänsterpositionen för ikonen efter behov */
+  pointer-events: none; /* Förhindra att ikonen interagerar med användaren */
+}
+.input-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px; /* Justera högerplatsen för att ge utrymme för ikonen */
 }
 
 .right .recent-posts {

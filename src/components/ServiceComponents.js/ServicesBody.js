@@ -6,16 +6,19 @@ import ServicesGreyButton from './ServicesGreyButton'
 import TitleRightSection from './TitleRightSection'
 import RightSectionBoxes from './RightSectionBoxes'
 import Categoriesbox from './Categoriesbox'
+import ArticleandnewsSection from '../ArticleandnewsSection'
 
 
 
 
 const ServicesBody = () => {
   return (
+
+    
    <div className="news-and-articles">
     <div className="container">
       <div className="left">
-      <h3>How To Use Digitalization <br/>In The Classroom</h3>
+      <h4>How To Use Digitalization <br/>In The Classroom</h4>
         <div className="under-title-div">
           <InfoParagraph description="Mar 25, 2023" showYellowCircle={true}/>
           <InfoParagraph description="Business"showYellowCircle={true} />
@@ -62,7 +65,10 @@ const ServicesBody = () => {
           <div className="form-div">
             <form className="search-bar" action="#" method="post">
               <label for="email"></label>
-              <input type="text" id="email" placeholder="username@domain.com"/>
+              <div className="input-container">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="email" placeholder="Type to search..." />
+              </div> 
             </form>
           </div>
           <div className="recent-posts">
@@ -79,17 +85,13 @@ const ServicesBody = () => {
           <Categoriesbox firstText="Writing" secondText="16 Posts"/>
           <Categoriesbox firstText="Business" secondText="35 Posts"/>
           <Categoriesbox firstText="Education" secondText="14 Posts"/>
-
           </div>
-          
-
-      
       </div>
-
     </div>
-
-
    </div>
+
+   
+   
   )
 }
 

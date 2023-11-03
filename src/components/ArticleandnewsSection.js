@@ -7,9 +7,9 @@ import articleAndNews3 from '../assets/images/articles-and-news-3.png'
 import ArticleandnewsBox from './ArticleandnewsBox'
 
 
-const ArticleandnewsSection = () => {
+const ArticleandnewsSection = ({backgroundColor}) => {
   return (
-    <section className="article-and-news-9">
+    <section className="article-and-news-9" style={{ backgroundColor }}>
   <div className="container">
     <div className="title-container">
       <div className="section-title">
