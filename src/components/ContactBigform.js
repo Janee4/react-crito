@@ -10,6 +10,18 @@ const ContactBigform = () => {
   const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/; // Skapar ett reguljärt uttryck (regex) som definierar ett giltigt e-postadressmönster
   return emailRegex.test(email); // Använder regex-mönstret för att testa om den angivna e-postadressen (som användaren skriver in) matchar mönstret, och returnerar true om det matchar, annars false
   };
+
+  const validateName = (name) => { 
+    const nameRegex = /^[A-Za-z\s]+$/; 
+    return nameRegex.test(name); 
+    };
+
+    const validateMessage = (message) => { //En funktion som heter validateMessage, och den tar en parameter 'message'.
+      const messageRegex = /^[A-Za-z\s]+$/; // skapat en variabel "messageRegex" som innehåller information om vilka tecken som är giltiga i meddelandet. 
+      return messageRegex.test(message); //Testar om message uppfyller villkoren och då returneras "true" om det är giltigt och false om det inte uppfyller villkoren.
+      };
+
+
   
   
   const handleSubmit = (e) => {
@@ -19,6 +31,8 @@ const ContactBigform = () => {
       setErrorMessage(
         <p>Please enter a message.</p>
       );
+    } else if (!validateMessage(message)) { //om validateMessage inte är true så ska felmeddelande skrivas ut. Observera att validateMessage endast är true om den uppfyller villkoren för messageRegex.
+      setErrorMessage(<p>The message must be at least 10 characters long.</p>)
     } else {
       setErrorMessage('');
     }
@@ -35,7 +49,10 @@ const ContactBigform = () => {
       setErrorName(
         <p>Please enter a name.</p>
       );
-    } else {
+    } else if (!validateName(name)) {
+      setErrorName( <p>Invalid name. The name can only contain letters and spaces.</p> );
+    }
+    else {
       setErrorName('');
     }
   
