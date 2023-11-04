@@ -17,7 +17,7 @@ const ContactBigform = () => {
     };
 
     const validateMessage = (message) => { //En funktion som heter validateMessage, och den tar en parameter 'message'.
-      const messageRegex = /^[A-Za-z\s]+$/; // skapat en variabel "messageRegex" som innehåller information om vilka tecken som är giltiga i meddelandet. 
+      const messageRegex = /^.{10,}$/; // skapat en variabel "messageRegex" som innehåller information om vilka tecken som är giltiga i meddelandet. 
       return messageRegex.test(message); //Testar om message uppfyller villkoren och då returneras "true" om det är giltigt och false om det inte uppfyller villkoren.
       };
 
@@ -32,7 +32,7 @@ const ContactBigform = () => {
         <p>Please enter a message.</p>
       );
     } else if (!validateMessage(message)) { //om validateMessage inte är true så ska felmeddelande skrivas ut. Observera att validateMessage endast är true om den uppfyller villkoren för messageRegex.
-      setErrorMessage(<p>The message must be at least 10 characters long.</p>)
+      setErrorMessage(<p>The message must be at least 10 characters long.</p>);
     } else {
       setErrorMessage('');
     }
